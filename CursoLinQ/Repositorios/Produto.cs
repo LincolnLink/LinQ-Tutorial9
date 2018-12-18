@@ -17,7 +17,7 @@ namespace CursoLinQ.Repositorios
         public int Id { get; set; }
         public Nullable<int> IdCategoria { get; set; }
         public string Nome { get; set; }
-        public string Valor { get; set; }
+        public Nullable<int> Valor { get; set; }
     
         public virtual Categoria Categoria { get; set; }
     }

@@ -19,7 +19,7 @@
           <Property Name="Id" Type="int" Nullable="false" />
           <Property Name="IdCategoria" Type="int" />
           <Property Name="Nome" Type="varchar" MaxLength="50" />
-          <Property Name="Valor" Type="varchar" MaxLength="50" />
+          <Property Name="Valor" Type="int" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -72,7 +72,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" />
           <Property Name="IdCategoria" Type="Int32" />
           <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Valor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Valor" Type="Int32" />
           <NavigationProperty Name="Categoria" Relationship="Self.FK_Produto_Categoria" FromRole="Produto" ToRole="Categoria" />
         </EntityType>
         <EntityType Name="sysdiagram">

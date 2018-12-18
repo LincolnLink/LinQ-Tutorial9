@@ -14,7 +14,7 @@
     <Property Name="Id" Type="int" Nullable="false" />
     <Property Name="IdCategoria" Type="int" />
     <Property Name="Nome" Type="varchar" MaxLength="50" />
-    <Property Name="Valor" Type="varchar" MaxLength="50" />
+    <Property Name="Valor" Type="int" />
   </EntityType>
   <EntityType Name="sysdiagrams">
     <Key>

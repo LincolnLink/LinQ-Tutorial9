@@ -81,29 +81,29 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
     <EntityDeploy Include="Repositorios\LojaModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>LojaModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="packages.config" />
     <None Include="Repositorios\LojaModel.edmx.diagram">
       <DependentUpon>LojaModel.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Repositorios\LojaModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>LojaModel.Context.cs</LastGenOutput>
       <DependentUpon>LojaModel.edmx</DependentUpon>
+      <LastGenOutput>LojaModel.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Repositorios\LojaModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>LojaModel.edmx</DependentUpon>
       <LastGenOutput>LojaModel.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
