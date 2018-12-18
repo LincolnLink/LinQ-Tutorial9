@@ -7,10 +7,10 @@ INSERT INTO [dbo].[Produto]
            ,[Nome]
            ,[Valor])
      VALUES
-           (5
-           ,3
-           ,'Sapato'
-           ,300)
+           (6
+           ,2
+           ,'Iphone'
+           ,5000)
 GO
 
 
